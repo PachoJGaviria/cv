@@ -1,17 +1,130 @@
 body {
-  background-color: #eeeeee;
+  margin: 0;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
 }
+
 hr {
 	border-style: dotted none none;
 	border-width: 0.4rem;
 	height: 5px;
 	width: 5%;
-	border-color: #23374d;
+	border-color: rgba(102, 191, 191, 0.479);
 }
-h1, h3 {
-	color: #23374d;
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 5rem;
+  color: #66BFBF;
+  margin: 6rem auto 0 auto;
+}
+
+h2 {
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #dff6f0;
+}
+
+.profile {
+  text-align: center;
+  display: inline-block;
+  width: 60%;
+  margin: 50px auto;
 }
 
 .circular {
-    border-radius: 25%;
+  display: block;
+  border-radius: 100%;
+  height: 12rem;
+  width: 12rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.right {
+  float: right;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  overflow: auto;
+}
+
+.left {
+  float: left;
+  margin-right: 1rem;
+}
+.skill-row {
+  display: inline-block;
+  width: 60%;
+  margin: 50px auto;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.top-cloud {
+  position: relative;
+  left: 12rem;
+  top: 3rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15rem;
+}
+
+.button-contact-me {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height: 2px;
+  line-height: 2px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 70;
+  padding: 20px;
+  margin-bottom: 1rem;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #66BFBF 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-contact-me:hover {
+  border: solid #66BFBF 1px;
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -o-linear-gradient(top, #11999E, #66BFBF);
+  background-image: linear-gradient(to bottom, #11999E, #66BFBF);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
 }
