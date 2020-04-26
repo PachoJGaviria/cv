@@ -32,6 +32,13 @@ h3 {
 
 a {
   color: #11999E;
+  font-family: 'Nunito', sans-serif;
+  margin: auto 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 .top-container {
@@ -98,7 +105,7 @@ a {
   height: 2px;
   line-height: 2px;
   color: #FFFFFF;
-  font-family: Open Sans;
+  font-family: 'Nunito', sans-serif;
   width: 200px;
   font-size: 20px;
   font-weight: 70;
@@ -127,4 +134,15 @@ a {
   -moz-border-radius: 10px;
   border-radius: 10px;
   text-decoration: none;
+}
+
+.footer-container {
+  background-color: #66BFBF;
+  padding-top: 1rem;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.7rem;
+  margin: 2rem auto auto auto;
 }
