@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  background-color: #393E46;
+  color: #4ECCA3;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.player {
+  display: inline-block;
+  font-size: 2rem;
+  margin: auto 1.8rem;
+}
